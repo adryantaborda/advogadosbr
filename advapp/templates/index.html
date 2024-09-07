@@ -8,65 +8,155 @@
     <title>Osvaldo Silva Advocacia</title>
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{% static 'fonts/style.css' %}">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
 </head>
 <body>
-    <!-- NAVBAR -->
-    <nav class="navbar" id="navbar">
-        <ul>
-            <a href="">Início</a>
-            <a href="">Serviços</a>
-            <a href="">Contato</a>
-        </ul>
-    </nav>
-    <!-- HEADER -->
-    <header>
-        <div class="header-desc">
-            <div class="title">Osvaldo Silva</div>
-            <div class="subtitle">Advogado Criminalista</div>
-        </div>
-        <div class="image-pr">
-            <img src="{% static 'images/advogado-pic.jpg'%}" alt="">
-        </div>
-        <div class="contact-header">
-            <div class="button-schedule">
-                <a href="">
-                    <button>Agende uma consulta</button>
-                </a>
-            </div>
-            <div class="number-header">12 91234-5678</div>
-        </div>
-    </header>
 
-    <main>
-        <div class="services">
-            <div class="service-case">
-                <div class="title">Consultoria Jurídica</div>
-                <div class="description">Examino documentos, contratos e situações jurídicas para identificar riscos, obrigações e oportunidades. Isso inclui a revisão de acordos e políticas para garantir conformidade com as leis e regulamentos aplicáveis.</div>
+
+  <header>
+      
+      <div class="container-fluid px-md-5">
+        <div class="row justify-content-between">
+          <div class="col-md-8 order-md-last">
+            <div class="row">
+              <div class="col-md-6 text-center">
+                
+              </div>
+              <div class="col-md-6 d-md-flex justify-content-end mb-md-0 mb-3">
+              </div>
             </div>
-            <div class="service-case">
-                <div class="title">Defesa em Processos</div>
-                <div class="description">Reuno e analiso provas para apoiar a defesa, incluindo testemunhas, documentos e outros materiais relevantes. Isso pode envolver entrevistas, obtenção de depoimentos e análise das provas da parte adversária.</div>
+          </div>
+          <div class="col-md-4 d-flex">
+            <div class="social-media">
+              <p class="mb-0 d-flex">
+                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-linkedin"><i class="sr-only">Linkedin</i></span></a>
+              </p>
             </div>
-            <div class="service-case">
-                <div class="title">Assistência em Investigações</div>
-                <div class="description">Trabalho com peritos ou especialistas em áreas específicas, como contabilidade forense, tecnologia da informação, para obter uma análise técnica ou científica das evidências.</div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container-fluid">
+        
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span> Menu
+          </button>
+          <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav m-auto">
+              <li class="nav-item active"><a href="#" class="nav-link">Início</a></li>
+              <li class="nav-item"><a href="#quem-sou" class="nav-link">Quem sou</a></li>
+              
+              <li class="nav-item"><a href="#meu-trabalho" class="nav-link">Meu trabalho</a></li>
+
+              <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+  </header>
+
+
+  <div class="hero"></div>
+
+
+
+   
+   
+<main>
+
+  <section id="quem-sou" class="presentation py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="display-4 font-weight-bold mb-4">Quem Sou</h2>
+                <blockquote class="blockquote">
+                <p class="lead">
+                    Meu nome é Osvaldo Silva, tenho 36 anos e sou formado em Direito pela Universidade de Advocacia (UA). Com 8 anos de experiência na área de advocacia criminal, desenvolvi uma sólida expertise em defender os direitos e interesses de meus clientes. Ao longo da minha carreira, tenho me dedicado a oferecer uma representação jurídica eficaz e estratégica, sempre pautada pela ética e pelo compromisso com a justiça. Minha experiência e formação me permitem abordar cada caso com profundidade e competência, buscando as melhores soluções para cada situação.
+                </p>
+              </blockquote>
             </div>
-            <div class="service-case">
-                <div class="title">Elaboração e Revisão de Documentos Legais</div>
-                <div class="description">Interrogo testemunhas, apresento depoimentos e evidências, e realizo o contra-interrogatório das testemunhas da parte adversária para fortalecer o caso e contestar alegações.</div>
+            <div class="col-md-6">
+              <img class="imagem-adv" src="{% static 'images/advogado-pic.jpg' %}" alt="Foto de Osvaldo Silva, advogado">
             </div>
         </div>
-    </main>
+    </div>
+</section>
 
-    <footer class="footer-32892 pb-0">
+  <section id="meu-trabalho" class="services container py-5">
+      <div class="row">
+          <div class="col-md-4 mb-4">
+              <div class="service-case">
+                  <div class="icon">
+                      <img src="{% static 'images/icons/iconhandsh.png'%}" alt="">
+                  </div>
+                  <div class="title">Consultoria Jurídica</div>
+                  <div class="description">Examino documentos, contratos e situações jurídicas para identificar riscos, obrigações e oportunidades. Isso inclui a revisão de acordos e políticas para garantir conformidade com as leis e regulamentos aplicáveis.</div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="service-case">
+                  <div class="icon">
+                      <img src="{% static 'images/icons/iconshield.png'%}" alt="">
+                  </div>
+                  <div class="title">Defesa em Processos</div>
+                  <div class="description">Reuno e analiso provas para apoiar a defesa, incluindo testemunhas, documentos e outros materiais relevantes. Isso pode envolver entrevistas, obtenção de depoimentos e análise das provas da parte adversária.</div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="service-case">
+                  <div class="icon">
+                      <img src="{% static 'images/icons/iconeye.png'%}" alt="">
+                  </div>
+                  <div class="title">Assistência em Investigações</div>
+                  <div class="description">Trabalho com peritos ou especialistas em áreas específicas, como contabilidade forense, tecnologia da informação, para obter uma análise técnica ou científica das evidências.</div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="service-case">
+                  <div class="icon">
+                      <img src="{% static 'images/icons/iconlaw.png'%}" alt="">
+                  </div>
+                  <div class="title">Elaboração e Revisão de Documentos Legais</div>
+                  <div class="description">Elaboração e revisão de contratos e outros documentos legais para garantir precisão e conformidade.</div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="service-case">
+                  <div class="icon">
+                      <img src="{% static 'images/icons/icontalk.png'%}" alt="">
+                  </div>
+                  <div class="title">Consultoria em Compliance</div>
+                  <div class="description">Orientação sobre conformidade com regulamentações e políticas internas para minimizar riscos legais e financeiros.</div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="service-case">
+                  <div class="icon">
+                      <img src="{% static 'images/icons/iconhammer.png'%}" alt="">
+                  </div>
+                  <div class="title">Mediação e Arbitragem</div>
+                  <div class="description">Auxílio na resolução de disputas através de mediação e arbitragem para chegar a um acordo satisfatório para ambas as partes.</div>
+              </div>
+          </div>
+      </div>
+  </section>
+</main>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <footer id="contato" class="footer-32892 pb-0">
         <div class="site-section">
           <div class="container">
   
@@ -109,12 +199,12 @@
                 <h3>Instagram</h3>
                 <div class="row gallery">
                   <div class="col-6">
-                    <a href="#"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                    <a href="#"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="#"><img src="{% static 'images/image1.jpg' %}" alt="Image" class="img-fluid"></a>
+                    <a href="#"><img src="{% static 'images/image2.jpg' %}" alt="Image" class="img-fluid"></a>
                   </div>
                   <div class="col-6">
-                    <a href="#"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-                    <a href="#"><img src="images/img_4.jpg" alt="Image" class="img-fluid"></a>
+                    <a href="#"><img src="{% static 'images/image3.jpg' %}" alt="Image" class="img-fluid"></a>
+                    <a href="#"><img src="{% static 'images/image4.jpg' %}" alt="Image" class="img-fluid"></a>
                   </div>
                 </div>
               </div>
@@ -138,8 +228,47 @@
           </div>
         </div>
       </footer>
-        <script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
-        <script src="{% static 'js/popper.min.js' %}"></script>
-        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+      <script src="{% static 'js/jquery.min.js' %}"></script>
+      <script src="{% static 'js/popper.js' %}"></script>
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <script src="{% static 'js/main.js' %}"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    // Animar elementos com a classe display-4 e imagem-adv
+    const specialElements = document.querySelectorAll('.display-4, .imagem-adv');
+
+    const observerSpecial = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            } else {
+                entry.target.classList.remove('visible');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    specialElements.forEach(element => {
+        observerSpecial.observe(element);
+    });
+
+    // Animar itens da seção de serviços
+    const serviceItems = document.querySelectorAll('.service-case');
+
+    const observerService = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    serviceItems.forEach(item => {
+        observerService.observe(item);
+    });
+});
+
+
+      </script>
 </body>
 </html>
